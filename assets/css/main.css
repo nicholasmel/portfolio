@@ -2599,8 +2599,8 @@ input[type="button"],
     border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #787878;
-  color: #787878 !important;
+  border: solid 3px #505050;
+  color: #3b3b3b !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -2618,8 +2618,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  border-color: #2997ff;
-  color: #2997ff !important;
+  border-color: #001529;
+  color: #00315f !important;
 }
 
 input[type="submit"]:active,
@@ -2671,8 +2671,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #3a3b3c;
-  border-color: #3a3b3c;
+  background-color: #2997ff;
+  border-color: #2997ff;
   color: #ffffff !important;
 }
 
@@ -2680,8 +2680,8 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-  background-color: #b0b3b8;
-  border-color: #b0b3b8;
+  background-color: #0070da;
+  border-color: #0070da;
 }
 
 input[type="submit"].primary:active,
@@ -2762,7 +2762,6 @@ input[type="button"]:disabled,
   margin: 0;
   list-style: none;
   color: #1f1815;
-  height: 10em;
 }
 
 /* Header */
@@ -3184,14 +3183,45 @@ body.is-touch .poptrox-popup .closer {
 
 /* XLarge */
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 3000px) {
   /* Basic */
 
-  body,
-  input,
-  select,
-  textarea {
-    font-size: 12pt;
+  /* Header */
+
+  #header {
+    padding: 6em 3em 3em 3em;
+    width: 30%;
+  }
+
+  #header h1 {
+    font-size: 12em;
+  }
+
+  #header h1 br {
+    display: none;
+  }
+
+  #header > .inner {
+    margin-bottom: 0;
+  }
+
+  /* Footer */
+
+  #footer .copyright li {
+    border-left-width: 0;
+    display: block;
+    line-height: 2.25em;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  /* Main */
+
+  #main {
+    margin-left: 30%;
+    max-width: none;
+    padding: 2em 3em 3em 3em;
+    width: calc(100% - 30%);
   }
 }
 
@@ -3206,7 +3236,7 @@ body.is-touch .poptrox-popup .closer {
   }
 
   #header h1 {
-    font-size: 2em;
+    font-size: 12em;
   }
 
   #header h1 br {
