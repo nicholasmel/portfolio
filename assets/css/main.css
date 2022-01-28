@@ -167,7 +167,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: rgb(26, 26, 26);
 }
 
 body.is-preload *,
@@ -224,7 +224,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
-  color: #2a2a2a;
+  color: #c8c8c8;
 }
 
 h1,
@@ -233,7 +233,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333333;
+  color: #fbfbfb;
   line-height: 1em;
   margin: 0 0 1em 0;
 }
@@ -1885,9 +1885,10 @@ header.major h2 {
 }
 
 .fab {
-  font-size: 2em;
+  font-size: 1.4em;
   align-items: center;
-  width: 1.5em;
+  width: auto;
+  padding-right: 1em;
 }
 
 .fa-js {
@@ -2599,8 +2600,8 @@ input[type="button"],
     border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #505050;
-  color: #3b3b3b !important;
+  border: solid 3px #e7e7e7;
+  color: #e4e4e4 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -2618,15 +2619,15 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  border-color: #001529;
-  color: #00315f !important;
+  border-color: #a3a3a3;
+  color: #a3a3a3 !important;
 }
 
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-  background-color: rgba(73, 191, 157, 0.1);
+  background-color: rgb(233, 233, 233);
   border-color: #2997ff;
   color: #2997ff !important;
 }
@@ -2671,8 +2672,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #2997ff;
-  border-color: #2997ff;
+  background-color: #0070da;
+  border-color: #0070da;
   color: #ffffff !important;
 }
 
@@ -2680,16 +2681,16 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-  background-color: #0070da;
-  border-color: #0070da;
+  background-color: #2997ff;
+  border-color: #2997ff;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-  background-color: #3eb08f;
-  border-color: #3eb08f;
+  background-color: #e9e9e9;
+  border-color: #e9e9e9;
 }
 
 input[type="submit"].secondary,
@@ -2736,7 +2737,7 @@ input[type="button"]:disabled,
 .work-item {
   margin: 0 0.5em 2em 0;
   padding: 1em 1em;
-  background-color: #f5f5f5;
+  background-color: #313131dc;
   border-radius: 0.5em;
 }
 
@@ -2761,7 +2762,7 @@ input[type="button"]:disabled,
   line-height: 1.6em;
   margin: 0;
   list-style: none;
-  color: #1f1815;
+  color: #c5c5c5;
 }
 
 /* Header */
