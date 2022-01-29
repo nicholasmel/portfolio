@@ -2789,7 +2789,8 @@ input[type="button"]:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"), url("../../images/hawaii.jpg");
+  background-image: url("images/overlay.png"),
+    url("https://www.cultofmac.com/ezoimgfmt/cdn.cultofmac.com/wp-content/uploads/2020/06/Apple-BigSur-Wallpaper1.jpg?ezimgfmt=ng:webp/ngcb21");
   background-position: left top, left top;
   background-repeat: repeat, repeat;
   background-size: auto, 300%;
