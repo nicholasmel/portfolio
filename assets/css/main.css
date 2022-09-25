@@ -1898,6 +1898,10 @@ header.major h2 {
   padding-right: 1em;
 }
 
+.fa-csharp {
+  color: #782379;
+}
+
 .fa-js {
   color: #f0db4f;
 }
