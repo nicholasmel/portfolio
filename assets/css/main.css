@@ -1922,6 +1922,14 @@ header.major h2 {
   color: rgb(255, 136, 0);
 }
 
+.uhaul-color {
+  color: orange;
+}
+
+.shamrock-color {
+  color: lightgreen;
+}
+
 /* Form */
 
 form {
